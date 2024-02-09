@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import RssReader from "./components/RssReader.vue";
+</script>
 
 <template>
-  <h1>Hello</h1>
+  <RssReader />
 </template>
 
 <style scoped></style>
